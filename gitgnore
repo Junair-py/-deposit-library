@@ -1,0 +1,27 @@
+
+### 2. `.gitignore`
+
+```plaintext
+# Arquivos temporários e de sistema
+*.log
+*.tmp
+*.swp
+*.swo
+
+# Pastas de cache
+cache/
+tmp/
+
+# Arquivos de configuração específicos da IDE
+.vscode/
+.idea/
+
+# Arquivos de banco de dados locais
+*.sqlite
+*.db
+*.sql
+
+# Backup de arquivos
+*.bak
+*.old
+*.orig
